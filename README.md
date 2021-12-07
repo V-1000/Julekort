@@ -1,5 +1,13 @@
-<html>
+<html lang="no">
   <head>
+    <!--Gir informasjon til dokumentet om forfatter, tegnsettet, beskrivelse, nøkkelord og tittel.-->
+    <meta name="author" content="Vishno">
+    <meta charset="UTF-8">
+    <meta name="description" content="Et koselig julekort">
+    <meta name="keywords" content="Julekort, God jul, Godt nyttår">
+    <title>Julekort</title>
+    <!--Javascript, lager to funksjoner. Den ene viser noen elementer etter at en knapp har blitt trukket. 
+      Den andre spør om navnet til personen etter at knappen har blitt trukket og sier god jul til personen -->
     <script>
       function visOverraskelse(){
         document.getElementById("overraskelse").style.display = "inline";
@@ -21,7 +29,7 @@
 h1 {
   color:white;
   background-color:green;
-  font-size:112px;
+  font-size:72px;
 }
 h2 {
   color:white;
@@ -40,6 +48,8 @@ button {
 }
   </style>
   <body>
+  </style>
+    <h1>Julekort</h1>
     <h2>Til Lasse og Micha</h2>
     <img src="juletre.png" alt="bilde av juletre" width="300">
     <p>God jul og godt nyttår Micha og Lasse!</p>
