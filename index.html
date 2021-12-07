@@ -1,5 +1,5 @@
 <!doctype html>
-<!--Setter språket til dokumentet til norsk-->
+<!--Setter språket til dokumentet til norsk.-->
 <html lang="no">
   <head>
     <!--Gir informasjon til dokumentet om forfatter, tegnsettet, beskrivelse, nøkkelord og tittel.-->
@@ -9,7 +9,7 @@
     <meta name="keywords" content="Julekort, God jul, Godt nyttår">
     <title>Julekort</title>
     <!--Javascript, lager to funksjoner. Den ene viser noen elementer etter at en knapp har blitt trukket. 
-      Den andre spør om navnet til personen etter at knappen har blitt trukket og sier god jul til personen -->
+      Den andre spør om navnet til personen etter at knappen har blitt trukket og sier god jul til personen.-->
     <script>
       function visOverraskelse(){
         document.getElementById("overraskelse").style.display = "inline";
@@ -23,6 +23,7 @@
       }
     </script>
   </head>
+  <!--CSS, endrer bakgrunnsfarge, tekstjusteringen, tekstfarge, tekste størrelse og gir farge og størrelse til knappene.-->
   <style>
       body {
   background-color: #ff1818;
@@ -50,7 +51,7 @@ button {
 }
   </style>
   <body>
-  </style>
+    <!--Legger inn tekst, bilder og lyd.-->
     <h1>Julekort</h1>
     <h2>Til Lasse og Micha</h2>
     <img src="juletre.png" alt="bilde av juletre" width="300">
@@ -58,10 +59,13 @@ button {
     <audio controls>
       <source src="Innspilling (5).m4a">
    </audio>
+    <!--Lager en knapp som sender info om den har blitt trykket til javascript funksjonene over og aktiverer de.-->
    <p>Trykk <button onclick="visOverraskelse();navn()">her</button> for en overraskelse!</p>
+    <!--Gjør elementer usynlige som etterhvert blir synlige igjen av javascript funksjonen.-->
    <div id="overraskelse" style="display:none">
         <img src="sngirru-m.gif" alt="gif av julenisse" width="300">
         <div>
+          <!--Lager en til knapp som restarter nettsiden. Vises etter at javascript funksjonen er aktiv.-->
         <button onclick="location.reload()">Start siden på nytt</button>
         </div>
    </div>
