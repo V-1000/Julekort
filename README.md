@@ -26,7 +26,7 @@
 h1 {
   color:white;
   background-color:green;
-  font-size:112px;
+  font-size:72px;
 }
 h2 {
   color:white;
