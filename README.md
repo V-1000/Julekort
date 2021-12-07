@@ -40,7 +40,6 @@ button {
 }
   </style>
   <body>
-    <h1>Julekort</h1>
     <h2>Til Lasse og Micha</h2>
     <img src="juletre.png" alt="bilde av juletre" width="300">
     <p>God jul og godt nyttår Micha og Lasse!</p>
