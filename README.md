@@ -1,10 +1,6 @@
 <!doctype html>
-<!--Setter språket til dokumentet til norsk-->
-<html lang="no">
+<html>
   <head>
-    <!--Gir informasjon til dokumentet om forfatter, tegnsettet, beskrivelse, nøkkelord og tittel.-->
-    <!--Javascript, lager to funksjoner. Den ene viser noen elementer etter at en knapp har blitt trukket. 
-      Den andre spør om navnet til personen etter at knappen har blitt trukket og sier god jul til personen -->
     <script>
       function visOverraskelse(){
         document.getElementById("overraskelse").style.display = "inline";
