@@ -3,11 +3,6 @@
 <html lang="no">
   <head>
     <!--Gir informasjon til dokumentet om forfatter, tegnsettet, beskrivelse, nøkkelord og tittel.-->
-    <meta name="author" content="Vishno">
-    <meta charset="UTF-8">
-    <meta name="description" content="Et koselig julekort">
-    <meta name="keywords" content="Julekort, God jul, Godt nyttår">
-    <title>Julekort</title>
     <!--Javascript, lager to funksjoner. Den ene viser noen elementer etter at en knapp har blitt trukket. 
       Den andre spør om navnet til personen etter at knappen har blitt trukket og sier god jul til personen -->
     <script>
