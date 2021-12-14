@@ -16,6 +16,11 @@
         var audio = new Audio("Innspilling (5).m4a");
         audio.play();
       }
+      var x = document.getElementById("musikk"); 
+
+      function playAudio() { 
+        x.play(); 
+      } 
       function navn() {
         var person = prompt("Legg inn navnet ditt");
         if (person != null) {
@@ -63,6 +68,9 @@ button {
    </audio>
     <!--Lager en knapp som sender info om den har blitt trykket til javascript funksjonene over og aktiverer de.-->
    <p>Trykk <button onclick="visOverraskelse();navn()">her</button> for en overraskelse!</p>
+    <audio id="musikk">
+    <source src="Jingle-Bell-Rock-Bobby-Helms-1.mp3">
+    </audio>
     <!--Gjør elementer usynlige som etterhvert blir synlige igjen av javascript funksjonen.-->
    <div id="overraskelse" style="display:none">
         <img src="sngirru-m.gif" alt="gif av julenisse" width="300">
